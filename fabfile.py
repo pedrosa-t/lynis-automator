@@ -7,7 +7,7 @@ import time
 #env.use_ssh_config = True
 #Or define env variables
 #env.user = "vagrant"
-#
+
 
 #Variables
 work_dir="automate_execution/"
@@ -15,7 +15,7 @@ downloads_dir = work_dir + "downloads/"
 logs_dir = work_dir + "logs/"
 results_dir = work_dir + "results/"
 lynis_base_url = "http://cisofy.com/files/"
-lynis_version_tar_file = "lynis-1.6.4.tar.gz"
+lynis_version_tar_file = "lynis-2.0.0.tar.gz"
 lynis_version_dir = "lynis"
 
 
